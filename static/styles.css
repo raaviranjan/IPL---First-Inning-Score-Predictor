@@ -9,6 +9,8 @@ body{
 	height: 100%;
 	margin: 0;
 	background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 /* Website Title */
@@ -211,6 +213,9 @@ body{
 	color: #000000;
 	padding: 12px;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .contact-icon{

@@ -127,7 +127,7 @@ def predict():
         data = np.array([temp_array])
         my_prediction = int(regressor.predict(data)[0])
               
-        return render_template('result.html', lower_limit = my_prediction-5, upper_limit = my_prediction+5, temp = temp_array, d = data, p = my_prediction)
+        return render_template('result.html', lower_limit = my_prediction-5, upper_limit = my_prediction+5)
 
 
 
