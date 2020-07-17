@@ -15,7 +15,7 @@ body{
 
 /* Website Title */
 .container{
-	color: #000000;
+	color: #ffffff;
     padding: 20px;
 	display: block;
 	text-align: center;
@@ -240,6 +240,7 @@ body{
   height: 429px;
   line-height: 400px;
   text-align: center;
+  color: #ffffff
 }
 
 .danger{
